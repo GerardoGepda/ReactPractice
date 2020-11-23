@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "title": "task one",
+        "description": "nose jajaj",
+        "done": false
+    },
+    {
+        "id": 1,
+        "title": "task two",
+        "description": "tarea a hacer jaja",
+        "done": false
+    },
+    {
+        "id": 2,
+        "title": "task three",
+        "description": "esta también hay que hacerla",
+        "done": false
+    }
+]
