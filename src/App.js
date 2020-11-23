@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import tasks from './samples/tasks.json';
+import Tasks from './components/Tasks';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,9 +14,7 @@ class App extends React.Component {
   render () {
     return(
       <div>
-        {this.state.tasks.map(e => 
-          <p>{e.title} - {e.description} - {e.done} - {e.id}</p>  
-        )}
+        <Tasks tasks={this.state.tasks}/>
       </div>
     );
   };
